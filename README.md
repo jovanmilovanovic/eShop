@@ -1,2 +1,2 @@
 # eShop.github.io
-E shop redux app
+E-shop redux app
