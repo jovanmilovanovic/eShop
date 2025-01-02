@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App {
+
+  background-image: url(https://humanesocietyofsoutheasttexas.org/wp-content/uploads/2023/02/WC_BG7_Banner_BG_V2.webp);
+}
+
+.container {
+  font: 15px / 25px sans-serif;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1.naslov {
+  padding: 20px;
+  font: 45px / 25px sans-serif;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+.alert {
+  background-color: #657e69;
+  color: white;
+
+}
+
+.thumbnail {
+  background-color: white;
+  padding: 10px;
+  border: 8px solid transparent;
+  border-image: url(https://mindtheg.com/media/catalog/product/cache/3/thumbnail/1280x/17f82f742ffe127f42dca9de82fb58b1/w/p/wp20492-jardin-del-sol-green-1_1.jpg) 50 repeat;
+}
+
+.naslov {
+  color: #282c34;
+  padding-bottom: 10px;
+}
+
+.col-md-3 {
+  padding: 10px;
+  border: 8px solid transparent;
+  border-image: url(https://mindtheg.com/media/catalog/product/cache/3/thumbnail/1280x/17f82f742ffe127f42dca9de82fb58b1/w/p/wp20492-jardin-del-sol-green-1_1.jpg) 50 repeat;
+}
+
+.btn {
+  background-color: #657e69;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #657e69;
+  color: #2c5777;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.btn:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+.btnn {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.btnn:hover,
+.btnn:focus {
+  background-color: #d10d0d;
+  color: #f7fafd;
+}
+
+.btnn:focus {
+  box-shadow: 0 0 0 4px rgba(202, 0, 17, 0.905);
+}
+
+.btnn:active {
+  background-color: #ff0000;
+  box-shadow: none;
+  color: #ff0000;
+}
+
+.btnn-n {
+  background-color: #657e69;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.btnn-n:hover,
+.btnn-n:focus {
+  background-color: #657e69;
+  color: #2c5777;
+}
+
+.btnn-n:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+
+.btnn-n:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
